@@ -1,0 +1,36 @@
+body {
+    background-image: url("../images/background-pattern.jpg")
+}
+
+h1 {
+    background-color: #c96f3b;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 20px 3px;
+    color: white;
+    margin-bottom: 13px;
+}
+
+img {
+    height: 100px;
+}
+
+.peachback {
+    background-color: #fae6d0;
+    width: 50%;
+}
+
+p {
+    margin: 0px;
+    padding: 20px 5px 0px 10px;
+    color:green;
+    font-weight: bold;
+}
+
+.extraspace {
+    padding-bottom: 100px;
+}
+
+.together {
+    display: inline-block;
+}
