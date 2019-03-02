@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
+    <head>
 
-<body>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        
+        <title>Crystals Collector</title>
 
-    <script src="assets/javascript/game.js"></script>
-</body>
+    </head>
 
-</html>
-
-<!DOCTYPE html>
-<html>
-
-<head>
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <title>Crystals Collector</title>
-
-</head>
-
-<body>
-    <div class="container-fluid">
-        <h1>CrystalsCollector!</h1>
-        <div class="peachback">
-            <p>You will be given a random number at the beginning of the game.</p>
-            <p>There are four crystals below. By clicking on each crysal you will add a specific amount of points to the player's total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-            <p>The value of each crystal is hidden from you until you click on it.</p>
-            <p class="extraspace">Each time when the games starts, the game will change the values of each crysal.</p>
+    <body>
+        <div class="container-fluid">
+            <h1>CrystalsCollector!</h1>
+            <div class="peachback">
+                <p>You will be given a random number at the beginning of the game.</p>
+                <p>There are four crystals below. By clicking on each crysal you will add a specific amount of points to the player's total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p class="extraspace">Each time when the games starts, the game will change the values of each crysal.</p>
+            </div>
+            <h3><span class="numGuess">Number to guess:</span></h3>
+            <h3><span id="number-to-guess"></span></h3>
+            <div class="winsLosses">
+                <h3><span id="wins">Wins:</span></h3>
+                <h3><span id="losses">Loses:</span></h3>
+            </div>
+            <!-- Note that this div is now empty. We will fill it dynamically -->
+            <div id="crystals"></div>
+            <!-- <div class="pushDown">
+                <div id="crystals" class="together"><img src="assets/images/blue_crystal.png"></div>
+                <div id="crystals" class="together"><img src="assets/images/green_crystal.png"></div>
+                <div id="crystals" class="together"><img src="assets/images/purple_crystal.png"></div>
+                <div id="crystals" class="together"><img src="assets/images/red_crystal.png"></div>
+            </div> -->
+            <h3><span id="">Your total score is:</span></h3>
+            <h3><span id="currentScore"></span></h3>
         </div>
-        <h3>Number to Guess: <span id="number-to-guess"></span></h3>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
 
-        <!-- Note that this div is now empty. We will fill it dynamically -->
-        <div>
-            <div id="crystals" class="together"><img src="assets/images/blue_crystal.png"></div>
-            <div id="crystals" class="together"><img src="assets/images/green_crystal.png"></div>
-            <div id="crystals" class="together"><img src="assets/images/purple_crystal.png"></div>
-            <div id="crystals" class="together"><img src="assets/images/red_crystal.png"></div>
-        </div>
-    </div>
-    <script src="assets/javascript/game.js"></script>
-</body>
+    </body>
 
 </html>
