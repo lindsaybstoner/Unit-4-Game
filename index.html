@@ -19,22 +19,20 @@
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p class="extraspace">Each time when the games starts, the game will change the values of each crysal.</p>
             </div>
-            <h3><span class="numGuess">Number to guess:</span></h3>
-            <h3><span id="number-to-guess"></span></h3>
-            <div class="winsLosses">
-                <h3><span id="wins">Wins:</span></h3>
-                <h3><span id="losses">Loses:</span></h3>
+            <div class="box green">
+                <h3>Number to guess: <span></span></h3>
+                <h3><span id="number-to-guess"></span></h3>
+            </div>
+            <div class="box blue">
+                <h3>Wins: <span id="wins"></span></h3>
+                <h3>Loses: <span id="losses"></span></h3>
             </div>
             <!-- Note that this div is now empty. We will fill it dynamically -->
             <div id="crystals"></div>
-            <!-- <div class="pushDown">
-                <div id="crystals" class="together"><img src="assets/images/blue_crystal.png"></div>
-                <div id="crystals" class="together"><img src="assets/images/green_crystal.png"></div>
-                <div id="crystals" class="together"><img src="assets/images/purple_crystal.png"></div>
-                <div id="crystals" class="together"><img src="assets/images/red_crystal.png"></div>
-            </div> -->
-            <h3><span id="">Your total score is:</span></h3>
-            <h3><span id="currentScore"></span></h3>
+            <div class="box darkgreen">
+                <h3><span id="">Your total score is:</span></h3>
+                <h3><span id="currentScore"></span></h3>
+            </div>
         </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
