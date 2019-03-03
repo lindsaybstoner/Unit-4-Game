@@ -32,6 +32,8 @@ for (var i = 1; i < 5; i++) {
 
 reset = function() {
 	counter = 0;
+	var targetNumber = Math.floor(Math.random() * 101) + 19;
+	$("#number-to-guess").text(targetNumber);
 	$("#currentScore").text(counter);
 }
 
